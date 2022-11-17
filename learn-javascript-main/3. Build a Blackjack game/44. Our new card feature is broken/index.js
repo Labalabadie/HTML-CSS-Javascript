@@ -48,8 +48,10 @@ function renderGame() {
 
 
 function newCard() {
+    if (isAlive) {
     let card = getRandomCard()
     sum += card
     cards.push(card)
     renderGame()
+    }
 }
