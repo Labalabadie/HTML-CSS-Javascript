@@ -1,6 +1,6 @@
 // let randomNumber = Math.random() * 6
 
-let flooredNumber = Math.floor(3.45632)
+let flooredNumber = Math.floor(3.95632)
 
 console.log(flooredNumber)
 
@@ -9,6 +9,6 @@ console.log(flooredNumber)
 
 What does Math.floor() do to positive numbers?
 
-Your answer: 
+Your answer: Round em down till interger (Remove decimals)
 
 */
