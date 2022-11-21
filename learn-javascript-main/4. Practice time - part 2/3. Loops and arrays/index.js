@@ -9,3 +9,6 @@ The 5 largest countries in the world:
 - Indinesia
 - Pakistan
 */
+
+for (let i = 0 ; i < largeCountries.length ; i++) { 
+    if (largeCountries[i] === "USA") {console.log("United States")} else {console.log(largeCountries[i])}}
