@@ -24,6 +24,8 @@ button {
 /* Style the button according to the provided design */
 
 #delete-btn {
+    background: whitesmoke;
+    color: #5f9341;
     
 }
 
