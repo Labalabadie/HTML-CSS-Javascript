@@ -4,14 +4,18 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
 inputBtn.addEventListener("click", function() {
+    myLeads = []
     myLeads.push(inputEl.value)
     console.log(myLeads)
-})
+
 
 // Replace .textContent with .innerHTML and use <li> tags
 for (let i = 0; i < myLeads.length; i++) {
-    ulEl.textContent += myLeads[i] + " "
+    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+    //const li = document.createElement("li")
+    //li.textContent = myLeads[i]
+    //ulEl.append(li)
 }
 
-
+})
 
